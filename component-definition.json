@@ -709,6 +709,22 @@
               }
             }
           }
+        },
+        {
+          "title": "Stockticker",
+          "id": "stockticker",
+          "plugins": {
+            "xwalk": {
+              "page": {
+                "resourceType": "core/fd/components/form/datepicker/v1/datepicker",
+                "template": {
+                  "jcr:title": "Stockticker",
+                  "fieldType": "date-input",
+                  "fd:viewType": "stockticker"
+                }
+              }
+            }
+          }
         }
       ]
     }

@@ -45,6 +45,9 @@
         },
         {
           "...": "../blocks/form/components/iconcards/_iconcards.json#/definitions"
+        },
+        {
+          "...": "../blocks/form/components/stockticker/_stockticker.json#/definitions"
         }
       ]
     }
