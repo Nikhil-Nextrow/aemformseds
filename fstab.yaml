@@ -1,0 +1,5 @@
+mountpoints:
+  /:
+    url: "https://author-p63260-e524717.adobeaemcloud.com/bin/franklin.delivery/Nikhil-Nextrow/aemformseds/main"
+    type: "markup"
+    suffix: ".html"
