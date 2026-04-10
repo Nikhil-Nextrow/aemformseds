@@ -1,5 +1,5 @@
 mountpoints:
   /:
-    url: "https://author-p63260-e524717.adobeaemcloud.com/bin/franklin.delivery/Nikhil-Nextrow/aemformseds/main"
+    url: "https://author-p63260-e524717.adobeaemcloud.com/bin/franklin.delivery/nikhil-nextrow/aemformseds/main"
     type: "markup"
     suffix: ".html"
