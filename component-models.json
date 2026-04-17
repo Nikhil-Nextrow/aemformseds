@@ -190,6 +190,7 @@
         "component": "text",
         "name": "name",
         "label": "Custom Section Name",
+        "value": "Custom Section",
         "description": "The label shown for this custom-section in the Content Tree"
       },
       {
