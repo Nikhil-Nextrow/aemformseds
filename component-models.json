@@ -180,6 +180,28 @@
     ]
   },
   {
+    "id": "custom-section",
+    "fields": [
+      {
+        "component": "text",
+        "name": "name",
+        "label": "Custom Section Name",
+        "description": "The label shown for this custom-section in the Content Tree"
+      },
+      {
+        "component": "multiselect",
+        "name": "style",
+        "label": "Style",
+        "options": [
+          {
+            "name": "Highlight",
+            "value": "highlight"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "id": "embed-adaptive-form",
     "fields": [
       {

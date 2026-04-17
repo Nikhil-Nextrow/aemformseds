@@ -42,6 +42,21 @@
     ]
   },
   {
+    "id": "custom-section",
+    "components": [
+      "text",
+      "image",
+      "button",
+      "title",
+      "hero",
+      "cards",
+      "columns",
+      "fragment",
+      "form",
+      "embed-adaptive-form"
+    ]
+  },
+  {
     "id": "form",
     "components": [
       "captcha",
