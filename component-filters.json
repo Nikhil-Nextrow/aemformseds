@@ -2,7 +2,8 @@
   {
     "id": "main",
     "components": [
-      "section"
+      "section",
+      "custom-section"
     ]
   },
   {
@@ -42,6 +43,21 @@
     ]
   },
   {
+    "id": "custom-section",
+    "components": [
+      "text",
+      "image",
+      "button",
+      "title",
+      "hero",
+      "cards",
+      "columns",
+      "fragment",
+      "form",
+      "embed-adaptive-form"
+    ]
+  },
+  {
     "id": "form",
     "components": [
       "captcha",
@@ -68,7 +84,9 @@
       "text-input",
       "tnc",
       "wizard",
-      "range"
+      "range",
+      "iconcards",
+      "stockticker"
     ]
   },
   {

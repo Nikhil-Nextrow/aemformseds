@@ -128,6 +128,20 @@
           }
         },
         {
+          "title": "Custom Section",
+          "id": "custom-section",
+          "plugins": {
+            "xwalk": {
+              "page": {
+                "resourceType": "core/franklin/components/section/v1/section",
+                "template": {
+                  "model": "custom-section"
+                }
+              }
+            }
+          }
+        },
+        {
           "title": "Embed Adaptive Form",
           "id": "embed-adaptive-form",
           "plugins": {
@@ -697,6 +711,47 @@
                   "fd:viewType": "range",
                   "enabled": true,
                   "visible": true
+                }
+              }
+            }
+          }
+        },
+        {
+          "title": "Iconcards",
+          "id": "iconcards",
+          "plugins": {
+            "xwalk": {
+              "page": {
+                "resourceType": "core/fd/components/form/radiobutton/v1/radiobutton",
+                "template": {
+                  "jcr:title": "Iconcards",
+                  "fieldType": "radio-group",
+                  "enum": [
+                    "0",
+                    "1"
+                  ],
+                  "enumNames": [
+                    "Individual",
+                    "Business"
+                  ],
+                  "orientation": "horizontal",
+                  "fd:viewType": "iconcards"
+                }
+              }
+            }
+          }
+        },
+        {
+          "title": "Stockticker",
+          "id": "stockticker",
+          "plugins": {
+            "xwalk": {
+              "page": {
+                "resourceType": "core/fd/components/form/datepicker/v1/datepicker",
+                "template": {
+                  "jcr:title": "Stockticker",
+                  "fieldType": "date-input",
+                  "fd:viewType": "stockticker"
                 }
               }
             }
