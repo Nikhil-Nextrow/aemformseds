@@ -29,7 +29,7 @@ function createCard(element, enums) {
     radioWrapper.querySelector('input').dataset.index = index;
 
     const imageSrc = enums[index]?.image || defaultCardImage(index);
-    const image = createOptimizedPicture(imageSrc, 'card-image');
+    const image = createOptimizedPicture(imageSrc, 'card-image', true);
 
     radioWrapper.appendChild(image);
   });
