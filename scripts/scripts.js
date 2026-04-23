@@ -10,6 +10,7 @@ import {
   loadSection,
   loadSections,
   loadCSS,
+  loadScript,
 } from './aem.js';
 
 /**
@@ -136,6 +137,7 @@ function loadDelayed() {
   // eslint-disable-next-line import/no-cycle
   window.setTimeout(() => import('./delayed.js'), 3000);
   // load anything that can be postponed to the latest here
+  loadScript('https://assets.adobedtm.com/c659134f73d8/1755ac2bc64c/launch-60c343fe561e-development.min.js')
 }
 
 async function loadPage() {
