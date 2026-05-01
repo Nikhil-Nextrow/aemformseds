@@ -94,6 +94,22 @@
       "iconcards",
       "stockticker"
     ]
+<<<<<<< HEAD
 >>>>>>> 88a51fb (Initial commit)
+=======
+  },
+  {
+    "id": "section",
+    "components": [
+      "text",
+      "image",
+      "button",
+      "title",
+      "hero",
+      "cards",
+      "columns",
+      "quote"
+    ]
+>>>>>>> f473246 (adding new component quote)
   }
 ]
