@@ -129,7 +129,24 @@
         },
         {
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+          "title": "Custom Section",
+          "id": "custom-section",
+          "plugins": {
+            "xwalk": {
+              "page": {
+                "resourceType": "core/franklin/components/section/v1/section",
+                "template": {
+                  "model": "custom-section"
+                }
+              }
+            }
+          }
+        },
+        {
+>>>>>>> 7ff8459 (Adding new section)
           "title": "Embed Adaptive Form",
           "id": "embed-adaptive-form",
           "plugins": {
